@@ -15,3 +15,11 @@ class GreenfieldFriendshipsApp < Sinatra::Base
  set :views, File.join(APP_ROOT, "app", "views")
  set :public_folder, File.join(APP_ROOT, "app", "public")
 end
+
+# ENV['SINATRA_ENV'] ||= "development"
+# ENV['RACK_ENV'] ||= "development"
+
+# require 'bundler/setup'
+# Bundler.require(:default, ENV['SINATRA_ENV'])
+
+# require_all 'app'
