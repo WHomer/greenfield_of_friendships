@@ -1,8 +1,8 @@
-# require 'sinatra'
-# require 'sinatra/activerecord'
+require 'sinatra'
+require 'sinatra/activerecord'
 
-# class App < Sinatra::Base
-#   get "/" do
-#     erb :index
-#   end
-# end
+class App < Sinatra::Base
+  get "/" do
+    erb :index
+  end
+end

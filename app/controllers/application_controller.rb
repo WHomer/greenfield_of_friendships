@@ -4,9 +4,9 @@ class ApplicationController < Sinatra::Base
     set :public_dir, "public"
   end
 
-  get '/' do
-    "Hello World!"
-  end
+  # get '/' do
+  #   "Hello World!"
+  # end
 
 
 end

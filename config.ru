@@ -1,3 +1,3 @@
-require_relative './config/environment'
+require './app/app'
 
-run ApplicationController
+run App
