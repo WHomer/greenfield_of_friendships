@@ -8,6 +8,7 @@ gem 'activerecord'
 gem 'sinatra-activerecord'
 gem 'tux'
 gem 'shotgun'
+gem 'rake'
 
 group :test do
  gem 'capybara'
