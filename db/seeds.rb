@@ -1,0 +1,1 @@
+Friendship.create!(site_token: "12345abcde", user_id: 1, friend_id: 2)
