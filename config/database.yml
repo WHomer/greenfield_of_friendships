@@ -1,9 +1,9 @@
 development:
- adapter: postgresql
- database: greenfield-friendships-development
+  adapter: postgresql
+  database: greenfield-friendships-development
 test:
- adapter: postgresql
- database: greenfield-friendships-test
+  adapter: postgresql
+  database: greenfield-friendships-test
 production:
- adapter: postgresql
- database: greenfield-friendships-production
+  adapter: postgresql
+  database: greenfield-friendships-production
