@@ -1,1 +1,8 @@
 Friendship.create!(site_token: "12345abcde", user_id: 1, friend_id: 2)
+Friendship.create!(site_token: "12345abcde", user_id: 1, friend_id: 3)
+Friendship.create!(site_token: "12345abcde", user_id: 1, friend_id: 4)
+Friendship.create!(site_token: "12345abcde", user_id: 1, friend_id: 5)
+Friendship.create!(site_token: "12345abcde", user_id: 1, friend_id: 6)
+Friendship.create!(site_token: "12345abcde", user_id: 2, friend_id: 2)
+Friendship.create!(site_token: "12345abcde", user_id: 2, friend_id: 5)
+Friendship.create!(site_token: "12345abcde", user_id: 3, friend_id: 6)
