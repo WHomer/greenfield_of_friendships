@@ -90,6 +90,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   activesupport
   capybara
   database_cleaner
